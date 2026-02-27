@@ -733,3 +733,24 @@
     grid-template-columns: 1fr;
   }
 }
+
+.gs-success-card {
+  animation: gsPop 0.5s ease;
+}
+
+@keyframes gsPop {
+  0% {
+    opacity: 0;
+    transform: translateY(12px) scale(0.96);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+.gs-error-text {
+  color: #dc2626;
+  font-size: 13px;
+  margin-top: 10px;
+}
